@@ -54,7 +54,7 @@ namespace Pertinent.Text
         public void Single_Parameter_Empty_With_Format()
         {
             var t = new TextTemplate("[foo::Hello {0}!]");
-            Assert.AreEqual("Hello bar!", t.Execute());
+            Assert.AreEqual("Hello !", t.Execute());
         }
     }
 }
